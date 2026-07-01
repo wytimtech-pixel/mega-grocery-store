@@ -1,0 +1,31 @@
+# Composer
+vendor/
+composer.lock
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Session files
+sessions/*
+!sessions/.gitkeep
+
+# Cache
+cache/*
+!cache/.gitkeep
